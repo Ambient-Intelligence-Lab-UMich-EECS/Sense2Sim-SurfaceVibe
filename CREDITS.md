@@ -1,0 +1,17 @@
+# Credits
+
+3-D models used on this site under a Creative Commons Attribution licence, each with its maker, its source and how it was changed.
+
+- "Camera module" by snrnsrk5 (Sketchfab), https://sketchfab.com/3d-models/camera-module-2dc004cc38af422a9ae05c1d6ff5e7b6, CC BY 4.0. Modified for the SenseWeaver library: scaled to real size, recentred, compressed, textures resized. Colours changed to the SenseWeaver studio palette. (in `library/C13.txt`)
+- "Arduino Uno" by kakaeka (Sketchfab), https://sketchfab.com/3d-models/775a2bf901a74fd190f175f5f0dcf2d0, CC BY 4.0, obtained from Objaverse (allenai/objaverse). Changes: scaled to a typical real size (0.0686 m largest side), recentred, compressed, textures resized. Changes 2026-11-12: meshes merged by material (the same triangles). Colours changed to the SenseWeaver studio palette. (in `library/OBJ-arduino_uno_2.txt`)
+- "Nikon D6" by theclippingpathservice (Sketchfab), https://sketchfab.com/3d-models/a258ee3070fe43abb8686cab42ef86d4, CC BY 4.0, obtained from Objaverse (allenai/objaverse). Changes: scaled to a typical real size (0.16 m largest side), recentred, compressed, textures resized. Changes 2026-11-12: meshes merged by material; simplified with meshoptimizer (simplifyWithAttributes: normals, UV and colours weigh in; error 0.0005 of each part's size; borders locked). Colours changed to the SenseWeaver studio palette. (in `library/OBJ-nikon_d6.txt`)
+- "Digital storage oscilloscope Akip 4125/1" by vfrckkkf (Sketchfab), https://sketchfab.com/3d-models/digital-storage-oscilloscope-akip-41251-46f8af436d894a44bc9617c663666bed, CC BY 4.0. Modified for the SenseWeaver library: scaled to real size, recentred, compressed, textures resized. Colours changed to the SenseWeaver studio palette. (in `library/X57.txt`)
+- "Tablet" by Nenked (Sketchfab), https://sketchfab.com/3d-models/tablet-6dd89a14a2fa46f78a99138e0431565a, CC BY 4.0. Changes: removed baseColorTexture, emissiveTexture from material Screen (the screen showed a Blender UI screenshot); plain colour instead. Modified for the SenseWeaver library: scaled to real size, recentred, compressed, textures resized. Colours changed to the SenseWeaver studio palette. (in `library/X85.txt`)
+- "stationery_pen_plastic_a01" by NVIDIA (SimReady), https://huggingface.co/datasets/nvidia/simready-assets/tree/main/stationery_pen_plastic_a01, CC BY 4.0. Changes: converted from OpenUSD to glTF with Blender 4.0.2, textures capped at 2048 px; for the SenseWeaver library recentred, compressed, textures resized. Colours changed to the SenseWeaver studio palette. (in `library/SR-stationery_pen_plastic_a01.txt`)
+
+Also used, with no credit required (public domain, CC0):
+
+- "Neutral right hand and forearm (MPFB2)", made with MPFB2 from the MakeHuman community's CC0 data (https://static.makehumancommunity.org/mpfb.html), CC0 1.0. (in `library/HUM-hand_right.txt`)
+- "Neutral right hand, short forearm (MPFB2)", made with MPFB2 from the MakeHuman community's CC0 data (https://static.makehumancommunity.org/mpfb.html), CC0 1.0. (in `library/HUM-hand_right_short.txt`)
+- "Neutral adult (MPFB2)", made with MPFB2 from the MakeHuman community's CC0 data (https://static.makehumancommunity.org/mpfb.html), CC0 1.0. (in `library/HUM-adult.txt`)
+- Metal Office Desk by Ulan Cabanilla (Poly Haven), CC0 (no credit required). Modified for the SenseWeaver library: scaled to real size, recentred, compressed, textures resized. (in `library/F03.txt`)

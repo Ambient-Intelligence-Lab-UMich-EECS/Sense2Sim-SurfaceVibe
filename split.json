@@ -1,0 +1,322 @@
+{
+  "from": {
+    "file": "/tmp/sw-site-oWOAjp/page/index.html",
+    "bytes": 6436716,
+    "sha256": "c5e52206f45a9cb1202e0000c51927d37a920ae3dd47f0288175d28a892daf15"
+  },
+  "page": {
+    "path": "index.html",
+    "bytes": 1737178,
+    "sha256": "afeaaf623be176326b69a755f84d7fd6e7c5fb7d0163ebabde980e49704db0c7"
+  },
+  "library": "/nfs/turbo/coe-kesuniot1/senseweaver/library/current",
+  "kb": "/nfs/turbo/coe-kesuniot1/senseweaver/bench/surfacevibe-a82-2026-11-21/kb/kb.json",
+  "files": [
+    {
+      "path": "library/S3D-sm24_geophone.txt",
+      "type": "text/plain",
+      "kind": "library",
+      "id": "S3D-sm24_geophone",
+      "glb": {
+        "bytes": 12176,
+        "sha256": "9246046a6180e457f87230ab36b76efb378feded6e26977a9e050efdf1282d62"
+      },
+      "library": "model.glb",
+      "bytes": 16236,
+      "sha256": "2ef70f9bb6f30af9f4084968862bff78f1b9fd61c94d9c67ebb2b4ca299a03d3"
+    },
+    {
+      "path": "library/OBJ-arduino_uno_2.txt",
+      "type": "text/plain",
+      "kind": "library",
+      "id": "OBJ-arduino_uno_2",
+      "glb": {
+        "bytes": 63944,
+        "sha256": "0813bb0d8f7a25db562d04b7ffb2faa081a768fe44fb60d344fad17f9afe01e2"
+      },
+      "library": "model.glb",
+      "bytes": 85260,
+      "sha256": "8e8a2d1b0de928604029e4bb24b0beb123a4bf35066a8eafe6a9166e947ae904"
+    },
+    {
+      "path": "library/X57.txt",
+      "type": "text/plain",
+      "kind": "library",
+      "id": "X57",
+      "glb": {
+        "bytes": 253724,
+        "sha256": "d1941a4ebe14296cf1e10cc3378a2d4ffbf074fc76eef5c37a3c5d68e5e03d39"
+      },
+      "library": "lod1.glb",
+      "bytes": 338300,
+      "sha256": "34235a2cb931c7bfe1d724e2895bfcd8b38af50fa714abede53d1ae0b5afaeae"
+    },
+    {
+      "path": "library/SR-stationery_pen_plastic_a01.txt",
+      "type": "text/plain",
+      "kind": "library",
+      "id": "SR-stationery_pen_plastic_a01",
+      "glb": {
+        "bytes": 231236,
+        "sha256": "293c8e802424571282343f10b666178674f868b517dffdcf3707e6dadd623664"
+      },
+      "library": "lod1.glb",
+      "bytes": 308316,
+      "sha256": "5f7bcf8d3801f6755ec75aa880f19dc68e67f4bf70b4c59bfa96f7e9f5ab724c"
+    },
+    {
+      "path": "library/HUM-hand_right.txt",
+      "type": "text/plain",
+      "kind": "library",
+      "id": "HUM-hand_right",
+      "glb": {
+        "bytes": 54244,
+        "sha256": "e1bc7e3e0aea714d854b92d50cc801f52e888111e0f5d90c9b6e882627b69209"
+      },
+      "library": "model.glb",
+      "bytes": 72328,
+      "sha256": "c5057cca8cd1581161c140f6bfd0acdb91cf19f27f6c35bf888c919f36d46557"
+    },
+    {
+      "path": "library/HUM-hand_right_short.txt",
+      "type": "text/plain",
+      "kind": "library",
+      "id": "HUM-hand_right_short",
+      "glb": {
+        "bytes": 52628,
+        "sha256": "6241984d598917fbdcf28932c10c1a31b34ffcc250df5d2afeecbd779f18eabb"
+      },
+      "library": "model.glb",
+      "bytes": 70172,
+      "sha256": "6f74bb30cc60b6eea8702cff2163bb77a3dd6ba0950b24e20c57456fa2927aee"
+    },
+    {
+      "path": "library/X85.txt",
+      "type": "text/plain",
+      "kind": "library",
+      "id": "X85",
+      "glb": {
+        "bytes": 43288,
+        "sha256": "fd728ae5264354be6d71fc621b704281e4c2fe8955b8190527113125baa27e7c"
+      },
+      "library": "model.glb",
+      "bytes": 57720,
+      "sha256": "40539773b0b1c7ecc826d8e3e4d1586d3b9d986c23bf5d4fa23b9425fb712347"
+    },
+    {
+      "path": "library/C13.txt",
+      "type": "text/plain",
+      "kind": "library",
+      "id": "C13",
+      "glb": {
+        "bytes": 455708,
+        "sha256": "63ba645cfe24666ce190a198161b9a77f557c6e1fa991bf8befbb2f6924f28f0"
+      },
+      "library": "model.glb",
+      "bytes": 607612,
+      "sha256": "ace67e9ca490fe0a52489e7aa63a18f0ab745fe59c3970ce8625880e45f46d32"
+    },
+    {
+      "path": "library/S3D-murata_7bb27.txt",
+      "type": "text/plain",
+      "kind": "library",
+      "id": "S3D-murata_7bb27",
+      "glb": {
+        "bytes": 9672,
+        "sha256": "6ac09d1f063f0cb9a539c29bf383470365a57d3dc6b0aba0c2dc609582295c5c"
+      },
+      "library": "model.glb",
+      "bytes": 12896,
+      "sha256": "7320ce883cd26545942fe8659aec3ec63e20047261fa365930c1c4e43e0d7acd"
+    },
+    {
+      "path": "library/OBJ-nikon_d6.txt",
+      "type": "text/plain",
+      "kind": "library",
+      "id": "OBJ-nikon_d6",
+      "glb": {
+        "bytes": 383284,
+        "sha256": "c6e7b4b7c28fe85d4ff341d9719ad3c45704251a450bf387b3124d55cfa073e2"
+      },
+      "library": "lod1.glb",
+      "bytes": 511048,
+      "sha256": "3af801de5e4785b62ef4b29ff9577ad8a25a9fe5d5c420fdf202cf751ce9c002"
+    },
+    {
+      "path": "library/HUM-adult.txt",
+      "type": "text/plain",
+      "kind": "library",
+      "id": "HUM-adult",
+      "glb": {
+        "bytes": 88872,
+        "sha256": "d350dc9b9589b2aa6cac536f75c1728a41a5ce4155e193871d45dc7cd0d3c47f"
+      },
+      "library": "lod1.glb",
+      "bytes": 118496,
+      "sha256": "8dec62a496d6d855e6d2d2ddc8e37862d4bbfd3c5eb006e509e0a7ccb27df683"
+    },
+    {
+      "path": "library/F03.txt",
+      "type": "text/plain",
+      "kind": "library",
+      "id": "F03",
+      "glb": {
+        "bytes": 254224,
+        "sha256": "3af17b515ce0c1d9a38ecb27f7cdc5411f2698359df136f9408c8cb40fc5a0d4"
+      },
+      "library": "model.glb",
+      "bytes": 338968,
+      "sha256": "f94fb54e79ef1b3a3b49d6b40dc981f46c26b23dde35927de7776854dde3c1ff"
+    },
+    {
+      "path": "media/fig-1.png",
+      "type": "image/png",
+      "kind": "media",
+      "id": "fig-1",
+      "bytes": 68453,
+      "sha256": "902091eb7806c4a08715849cc779944420c706152334b0fa7d0e5c7421898480"
+    },
+    {
+      "path": "media/fig-2.png",
+      "type": "image/png",
+      "kind": "media",
+      "id": "fig-2",
+      "bytes": 123515,
+      "sha256": "1b8d5e443f2b1825c61221b72af3fe623f32b3c075f19cd6850a4d855e278b83"
+    },
+    {
+      "path": "media/fig-3.png",
+      "type": "image/png",
+      "kind": "media",
+      "id": "fig-3",
+      "bytes": 126290,
+      "sha256": "c4792814594050f3984ffb6102a28c058931b4c942314bcc1a42cef3fa66a785"
+    },
+    {
+      "path": "media/fig-3e.png",
+      "type": "image/png",
+      "kind": "media",
+      "id": "fig-3e",
+      "bytes": 106013,
+      "sha256": "a6f2e10e4eba405363a38718aafbcee537f3a899a145175d6dfd407694121f66"
+    },
+    {
+      "path": "media/fig-4.png",
+      "type": "image/png",
+      "kind": "media",
+      "id": "fig-4",
+      "bytes": 62667,
+      "sha256": "304fce85f89b211d10bfd64464634346e787dbf72d6b95dcbcf4b7c646706aac"
+    },
+    {
+      "path": "media/fig-5.png",
+      "type": "image/png",
+      "kind": "media",
+      "id": "fig-5",
+      "bytes": 51271,
+      "sha256": "80185d90062158745288c78a549206893fff803e7876950e832d1d8ad5529c36"
+    },
+    {
+      "path": "media/fig-6.png",
+      "type": "image/png",
+      "kind": "media",
+      "id": "fig-6",
+      "bytes": 47146,
+      "sha256": "88e2163ffd225dfab694ee92fbcaafb7d3cb6ff78729d5ebcd95f7959916c1e0"
+    },
+    {
+      "path": "media/fig-7.png",
+      "type": "image/png",
+      "kind": "media",
+      "id": "fig-7",
+      "bytes": 94090,
+      "sha256": "92476430c60a6017bc684fdaf382055191568d8cab8c805bc895f6db7b74d2a1"
+    },
+    {
+      "path": "media/fig-8.png",
+      "type": "image/png",
+      "kind": "media",
+      "id": "fig-8",
+      "bytes": 32974,
+      "sha256": "0edaf0d753f5f816482b5b1db5df7c3054c1bfb804f3dba3c6e0e9d7afa794e6"
+    },
+    {
+      "path": "media/fig-9.png",
+      "type": "image/png",
+      "kind": "media",
+      "id": "fig-9",
+      "bytes": 59260,
+      "sha256": "3216a25b1af00c80e5836ab4099c6aa08636dc7b5f28c15f2ad90b1275eefd7d"
+    },
+    {
+      "path": "media/fig-10.png",
+      "type": "image/png",
+      "kind": "media",
+      "id": "fig-10",
+      "bytes": 63803,
+      "sha256": "099f3b6f01f803b3a22e27addeda6e6d5072ff230653bea3b9e81e457650c62b"
+    },
+    {
+      "path": "media/fig-11.png",
+      "type": "image/png",
+      "kind": "media",
+      "id": "fig-11",
+      "bytes": 23186,
+      "sha256": "39657ffe0c28d8da1212af3882e7cf73124658adb4653731d9899d8ebe867bab"
+    },
+    {
+      "path": "media/fig-12.png",
+      "type": "image/png",
+      "kind": "media",
+      "id": "fig-12",
+      "bytes": 25928,
+      "sha256": "36a75ab325fe217ac63e49c87f4cb1728b3c179ca8dd5edfe33b878600e968a4"
+    },
+    {
+      "path": "media/fig-13.png",
+      "type": "image/png",
+      "kind": "media",
+      "id": "fig-13",
+      "bytes": 34035,
+      "sha256": "0bb3c3482a141b97f6f4f4cb4ce1382db243cc34842179538af31ccd399f69d1"
+    },
+    {
+      "path": "media/tab-1.png",
+      "type": "image/png",
+      "kind": "media",
+      "id": "tab-1",
+      "bytes": 25836,
+      "sha256": "5fa4f8f3679c91dc577de2094f1adc6c5352b44750aadc89006695aff19caa59"
+    },
+    {
+      "path": "kg/exp-kg.json",
+      "type": "application/json",
+      "kind": "kg",
+      "id": "exp-kg",
+      "kb": true,
+      "bytes": 903631,
+      "sha256": "04cca42eba959f141013749598984d491ad1e639d3e32f965cb8b45560fcad54"
+    },
+    {
+      "path": "world/surfacevibe-classroom.glb.js",
+      "type": "text/javascript",
+      "kind": "world",
+      "bytes": 500123,
+      "sha256": "ab344595a50a7c760a0ac3dbcb22323983bb2e99846c97fdcef7f82be70ecf78"
+    },
+    {
+      "path": "world/surfacevibe-office.glb.js",
+      "type": "text/javascript",
+      "kind": "world",
+      "bytes": 896063,
+      "sha256": "5fdd693afe164f8bb202cbe3578737d51a74374be3036abc64c5267f5d3d6b57"
+    },
+    {
+      "path": "about/assets.jpg",
+      "type": "image/jpeg",
+      "kind": "about",
+      "bytes": 255701,
+      "sha256": "a51c4183387e14b4b30743bf27ce09d141f5416df282c4171cdf4dd71a7e139f"
+    }
+  ]
+}
