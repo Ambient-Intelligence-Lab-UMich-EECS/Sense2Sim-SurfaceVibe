@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <!-- the tab's icon: the pictures first (icon-64.png, icon-180.png: the S drawn from the SVG, for a browser that takes no SVG
-     icon, Safari, and a phone's home screen), the SVG last, which a browser that takes it uses -->
+     icon, Safari, and a home screen's shortcut), the SVG last, which a browser that takes it uses -->
 <link rel="icon" type="image/png" sizes="64x64" href="icon-64.png">
 <link rel="apple-touch-icon" href="icon-180.png">
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' gradientUnits='userSpaceOnUse' x1='14' y1='10' x2='50' y2='54'%3E%3Cstop offset='0' stop-color='#d9f272'/%3E%3Cstop offset='.38' stop-color='#6b98ff'/%3E%3Cstop offset='.68' stop-color='#c7a2ff'/%3E%3Cstop offset='1' stop-color='#ff8a5b'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='14' fill='#0d0f13'/%3E%3Cpath d='M44 21C44 9.5 20 9.5 20 22C20 34 44 30 44 42C44 54.5 20 54.5 20 43' fill='none' stroke='url%28#g%29' stroke-width='8.5' stroke-linecap='round'/%3E%3C/svg%3E">
@@ -280,6 +280,8 @@ a.hnode .htext strong::after { content: " ›"; color: var(--ink-3); } a.hnode:h
 // this simulation's paper (tools/site.mjs fills it): its title, short name, its star in intro-data.js ({ g, i }) where
 // known, and its authors' scores ({ a, q, who, date }) where they are given
 window.S2S_PAPER = {"title":"SurfaceVibe: Vibration-Based Tap & Swipe Tracking on Ubiquitous Surfaces","short":"SurfaceVibe","g":4,"i":33};
+// what the simulator loads (tools/site.mjs): fetched in the background once the opening's scene is ready (intro.js)
+window.S2S_PRELOAD = ["../library/S3D-sm24_geophone.txt","../library/OBJ-arduino_uno_2.txt","../library/X57.txt","../library/SR-stationery_pen_plastic_a01.txt","../library/HUM-hand_right.txt","../library/HUM-hand_right_short.txt","../library/X85.txt","../library/C13.txt","../library/S3D-murata_7bb27.txt","../library/OBJ-nikon_d6.txt","../library/HUM-adult.txt","../library/F03.txt","../world/surfacevibe-classroom.glb.js","../world/surfacevibe-office.glb.js","../kg/exp-kg.json","../media/fig-1.png","../media/fig-2.png","../media/fig-3.png","../media/fig-3e.png","../media/fig-4.png","../media/fig-5.png","../media/fig-6.png","../media/fig-7.png","../media/fig-8.png","../media/fig-9.png","../media/fig-10.png","../media/fig-11.png","../media/fig-12.png","../media/fig-13.png","../media/tab-1.png","../about/assets.jpg","https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js"];
 (function () {
   var q = location.search, study = /[?&](study|userstudy|user_study)=1(&|$)/.test(q);
   try { sessionStorage.setItem("s2s-opening", study ? "study" : "plain"); } catch (e) {} // (the simulator opens here once a visit: js/feedback.js, opening)
