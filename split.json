@@ -1,16 +1,16 @@
 {
   "from": {
-    "file": "/tmp/sw-site-JNSnog/page/index.html",
-    "bytes": 6466052,
-    "sha256": "fa65c11cebf4fd0639316a3247305a585863ebd9992a1ff21f58e0224cbf5ec4"
+    "file": "/tmp/sw-site-CIsMT6/page/index.html",
+    "bytes": 6477483,
+    "sha256": "154a9be54dc634e2006ea57e27d9980a66671e5cad2a49079c03407fb2bb08da"
   },
   "page": {
     "path": "index.html",
-    "bytes": 1766514,
-    "sha256": "4fea2b4269f7033b570961c4bf6a7c17c8a8fe622e97add4f554b9a8d31b0e28"
+    "bytes": 1777945,
+    "sha256": "b25ddd059a59a884673307304dc36096d5e451d442c0e85bfacfd797165238ec"
   },
   "library": "/nfs/turbo/coe-kesuniot1/senseweaver/library/current",
-  "kb": "/nfs/turbo/coe-kesuniot1/senseweaver/bench/surfacevibe-a82-2026-11-21/kb/kb.json",
+  "kb": "/nfs/turbo/coe-kesuniot1/senseweaver/staging/2026-11-18-a61/kit85/kb/kb.json",
   "files": [
     {
       "path": "library/S3D-sm24_geophone.txt",
