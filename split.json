@@ -1,13 +1,13 @@
 {
   "from": {
-    "file": "/tmp/sw-site-UYOgrg/page/index.html",
-    "bytes": 6437549,
-    "sha256": "e0b5cf9a96aed379404de01abe02d0d744455894473f0af3c6c88a360953f9ec"
+    "file": "/tmp/sw-site-siJ6sP/page/index.html",
+    "bytes": 6438602,
+    "sha256": "0cdcbe1a0e3306804b77261672fb65f91b8cf399fdbaa0a87266d590d1088aad"
   },
   "page": {
     "path": "index.html",
-    "bytes": 1738011,
-    "sha256": "8e86711247ed09976d4c3f10149e57dff34a14d5cd2e8e2d02e231df7af50de1"
+    "bytes": 1739064,
+    "sha256": "a1bb897602a254f3e755181b25b13601d0443f0cbf457afa3d0f38693d8ff1ea"
   },
   "library": "/nfs/turbo/coe-kesuniot1/senseweaver/library/current",
   "kb": "/nfs/turbo/coe-kesuniot1/senseweaver/bench/surfacevibe-a82-2026-11-21/kb/kb.json",
